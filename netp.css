@@ -1,0 +1,138 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #d3381d;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 2rem;
+    background-color:white;
+  }
+  
+  #home .home-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  /* Menu Section */
+  #menu {
+    padding: 2rem;
+  }
+  
+  .pizza-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .pizza {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pizza img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .pizza h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .pizza p {
+    margin: 0.5rem 0;
+  }
+  
+  .pizza button {
+    background-color: #d3381d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .pizza button:hover {
+    background-color: #d3381d;
+  }
+  
+  /* About Us and Contact Section */
+  #about, #contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #7b7575;
+    color: white;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 1rem;
+}
+
+.footer-section h3 {
+    color: #0c0201;
+    margin-bottom: 1rem;
+}
+
+.footer-section a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #000000;
+}
+
+  
+h2{
+    text-align: center;
+}
+  
